@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FCEBC3626DED76B006D27DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCEBC3526DED76B006D27DB /* AppDelegate.swift */; };
+		1FCEBC3826DED76B006D27DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCEBC3726DED76B006D27DB /* SceneDelegate.swift */; };
+		1FCEBC3A26DED76B006D27DB /* MySketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCEBC3926DED76B006D27DB /* MySketch.swift */; };
+		1FCEBC3D26DED76B006D27DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCEBC3B26DED76B006D27DB /* Main.storyboard */; };
+		1FCEBC3F26DED76D006D27DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCEBC3E26DED76D006D27DB /* Assets.xcassets */; };
+		1FCEBC4226DED76D006D27DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCEBC4026DED76D006D27DB /* LaunchScreen.storyboard */; };
+		1FCEBC4B26DED784006D27DB /* SwiftProcessing in Frameworks */ = {isa = PBXBuildFile; productRef = 1FCEBC4A26DED784006D27DB /* SwiftProcessing */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F531D9226DEF36D007A2EAA /* SwiftProcessing-Microphone-Input-Template.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftProcessing-Microphone-Input-Template.entitlements"; sourceTree = "<group>"; };
+		1FCEBC3226DED76B006D27DB /* SwiftProcessing-Microphone-Input-Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftProcessing-Microphone-Input-Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCEBC3526DED76B006D27DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FCEBC3726DED76B006D27DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FCEBC3926DED76B006D27DB /* MySketch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySketch.swift; sourceTree = "<group>"; };
+		1FCEBC3C26DED76B006D27DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FCEBC3E26DED76D006D27DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FCEBC4126DED76D006D27DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FCEBC4326DED76D006D27DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FCEBC2F26DED76B006D27DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCEBC4B26DED784006D27DB /* SwiftProcessing in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FCEBC2926DED76B006D27DB = {
+			isa = PBXGroup;
+			children = (
+				1FCEBC3426DED76B006D27DB /* SwiftProcessing-Microphone-Input-Template */,
+				1FCEBC3326DED76B006D27DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FCEBC3326DED76B006D27DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FCEBC3226DED76B006D27DB /* SwiftProcessing-Microphone-Input-Template.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FCEBC3426DED76B006D27DB /* SwiftProcessing-Microphone-Input-Template */ = {
+			isa = PBXGroup;
+			children = (
+				1F531D9226DEF36D007A2EAA /* SwiftProcessing-Microphone-Input-Template.entitlements */,
+				1FCEBC3526DED76B006D27DB /* AppDelegate.swift */,
+				1FCEBC3726DED76B006D27DB /* SceneDelegate.swift */,
+				1FCEBC3926DED76B006D27DB /* MySketch.swift */,
+				1FCEBC3B26DED76B006D27DB /* Main.storyboard */,
+				1FCEBC3E26DED76D006D27DB /* Assets.xcassets */,
+				1FCEBC4026DED76D006D27DB /* LaunchScreen.storyboard */,
+				1FCEBC4326DED76D006D27DB /* Info.plist */,
+			);
+			path = "SwiftProcessing-Microphone-Input-Template";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FCEBC3126DED76B006D27DB /* SwiftProcessing-Microphone-Input-Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCEBC4626DED76D006D27DB /* Build configuration list for PBXNativeTarget "SwiftProcessing-Microphone-Input-Template" */;
+			buildPhases = (
+				1FCEBC2E26DED76B006D27DB /* Sources */,
+				1FCEBC2F26DED76B006D27DB /* Frameworks */,
+				1FCEBC3026DED76B006D27DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftProcessing-Microphone-Input-Template";
+			packageProductDependencies = (
+				1FCEBC4A26DED784006D27DB /* SwiftProcessing */,
+			);
+			productName = "SwiftProcessing-Microphone-Input-Template";
+			productReference = 1FCEBC3226DED76B006D27DB /* SwiftProcessing-Microphone-Input-Template.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FCEBC2A26DED76B006D27DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1FCEBC3126DED76B006D27DB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1FCEBC2D26DED76B006D27DB /* Build configuration list for PBXProject "SwiftProcessing-Microphone-Input-Template" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FCEBC2926DED76B006D27DB;
+			packageReferences = (
+				1FCEBC4926DED784006D27DB /* XCRemoteSwiftPackageReference "SwiftProcessing" */,
+			);
+			productRefGroup = 1FCEBC3326DED76B006D27DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FCEBC3126DED76B006D27DB /* SwiftProcessing-Microphone-Input-Template */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FCEBC3026DED76B006D27DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCEBC4226DED76D006D27DB /* LaunchScreen.storyboard in Resources */,
+				1FCEBC3F26DED76D006D27DB /* Assets.xcassets in Resources */,
+				1FCEBC3D26DED76B006D27DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FCEBC2E26DED76B006D27DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCEBC3A26DED76B006D27DB /* MySketch.swift in Sources */,
+				1FCEBC3626DED76B006D27DB /* AppDelegate.swift in Sources */,
+				1FCEBC3826DED76B006D27DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FCEBC3B26DED76B006D27DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCEBC3C26DED76B006D27DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FCEBC4026DED76D006D27DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCEBC4126DED76D006D27DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FCEBC4426DED76D006D27DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FCEBC4526DED76D006D27DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FCEBC4726DED76D006D27DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftProcessing-Microphone-Input-Template/SwiftProcessing-Microphone-Input-Template.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LTFKU9364;
+				INFOPLIST_FILE = "SwiftProcessing-Microphone-Input-Template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftprocessing.com.SwiftProcessing-Microphone-Input-Template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FCEBC4826DED76D006D27DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftProcessing-Microphone-Input-Template/SwiftProcessing-Microphone-Input-Template.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LTFKU9364;
+				INFOPLIST_FILE = "SwiftProcessing-Microphone-Input-Template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftprocessing.com.SwiftProcessing-Microphone-Input-Template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FCEBC2D26DED76B006D27DB /* Build configuration list for PBXProject "SwiftProcessing-Microphone-Input-Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCEBC4426DED76D006D27DB /* Debug */,
+				1FCEBC4526DED76D006D27DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCEBC4626DED76D006D27DB /* Build configuration list for PBXNativeTarget "SwiftProcessing-Microphone-Input-Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCEBC4726DED76D006D27DB /* Debug */,
+				1FCEBC4826DED76D006D27DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FCEBC4926DED784006D27DB /* XCRemoteSwiftPackageReference "SwiftProcessing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jjkaufman/SwiftProcessing.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FCEBC4A26DED784006D27DB /* SwiftProcessing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FCEBC4926DED784006D27DB /* XCRemoteSwiftPackageReference "SwiftProcessing" */;
+			productName = SwiftProcessing;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1FCEBC2A26DED76B006D27DB /* Project object */;
+}

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftProcessing",
+        "repositoryURL": "https://github.com/jjkaufman/SwiftProcessing.git",
+        "state": {
+          "branch": "main",
+          "revision": "5775765c96a47a8b08ee92320fdd2ad11ca6524b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
