@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F26E43E2712164B0067A14D /* SwiftProcessing in Frameworks */ = {isa = PBXBuildFile; productRef = 1F26E43D2712164B0067A14D /* SwiftProcessing */; };
 		1FCEBC3626DED76B006D27DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCEBC3526DED76B006D27DB /* AppDelegate.swift */; };
 		1FCEBC3826DED76B006D27DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCEBC3726DED76B006D27DB /* SceneDelegate.swift */; };
 		1FCEBC3A26DED76B006D27DB /* MySketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCEBC3926DED76B006D27DB /* MySketch.swift */; };
 		1FCEBC3D26DED76B006D27DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCEBC3B26DED76B006D27DB /* Main.storyboard */; };
 		1FCEBC3F26DED76D006D27DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCEBC3E26DED76D006D27DB /* Assets.xcassets */; };
 		1FCEBC4226DED76D006D27DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCEBC4026DED76D006D27DB /* LaunchScreen.storyboard */; };
-		1FCEBC4B26DED784006D27DB /* SwiftProcessing in Frameworks */ = {isa = PBXBuildFile; productRef = 1FCEBC4A26DED784006D27DB /* SwiftProcessing */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +33,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCEBC4B26DED784006D27DB /* SwiftProcessing in Frameworks */,
+				1F26E43E2712164B0067A14D /* SwiftProcessing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F26E43B271215BB0067A14D /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				1FCEBC3526DED76B006D27DB /* AppDelegate.swift */,
+				1FCEBC3726DED76B006D27DB /* SceneDelegate.swift */,
+				1FCEBC3B26DED76B006D27DB /* Main.storyboard */,
+				1FCEBC4026DED76D006D27DB /* LaunchScreen.storyboard */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
 		1FCEBC2926DED76B006D27DB = {
 			isa = PBXGroup;
 			children = (
@@ -59,13 +70,10 @@
 		1FCEBC3426DED76B006D27DB /* SwiftProcessing-Microphone-Input-Template */ = {
 			isa = PBXGroup;
 			children = (
+				1F26E43B271215BB0067A14D /* Extras */,
 				1F531D9226DEF36D007A2EAA /* SwiftProcessing-Microphone-Input-Template.entitlements */,
-				1FCEBC3526DED76B006D27DB /* AppDelegate.swift */,
-				1FCEBC3726DED76B006D27DB /* SceneDelegate.swift */,
 				1FCEBC3926DED76B006D27DB /* MySketch.swift */,
-				1FCEBC3B26DED76B006D27DB /* Main.storyboard */,
 				1FCEBC3E26DED76D006D27DB /* Assets.xcassets */,
-				1FCEBC4026DED76D006D27DB /* LaunchScreen.storyboard */,
 				1FCEBC4326DED76D006D27DB /* Info.plist */,
 			);
 			path = "SwiftProcessing-Microphone-Input-Template";
@@ -88,7 +96,7 @@
 			);
 			name = "SwiftProcessing-Microphone-Input-Template";
 			packageProductDependencies = (
-				1FCEBC4A26DED784006D27DB /* SwiftProcessing */,
+				1F26E43D2712164B0067A14D /* SwiftProcessing */,
 			);
 			productName = "SwiftProcessing-Microphone-Input-Template";
 			productReference = 1FCEBC3226DED76B006D27DB /* SwiftProcessing-Microphone-Input-Template.app */;
@@ -118,7 +126,7 @@
 			);
 			mainGroup = 1FCEBC2926DED76B006D27DB;
 			packageReferences = (
-				1FCEBC4926DED784006D27DB /* XCRemoteSwiftPackageReference "SwiftProcessing" */,
+				1F26E43C2712164B0067A14D /* XCRemoteSwiftPackageReference "SwiftProcessing" */,
 			);
 			productRefGroup = 1FCEBC3326DED76B006D27DB /* Products */;
 			projectDirPath = "";
@@ -359,9 +367,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1FCEBC4926DED784006D27DB /* XCRemoteSwiftPackageReference "SwiftProcessing" */ = {
+		1F26E43C2712164B0067A14D /* XCRemoteSwiftPackageReference "SwiftProcessing" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/jjkaufman/SwiftProcessing.git";
+			repositoryURL = "https://github.com/masoodkamandy/SwiftProcessing";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -370,9 +378,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1FCEBC4A26DED784006D27DB /* SwiftProcessing */ = {
+		1F26E43D2712164B0067A14D /* SwiftProcessing */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1FCEBC4926DED784006D27DB /* XCRemoteSwiftPackageReference "SwiftProcessing" */;
+			package = 1F26E43C2712164B0067A14D /* XCRemoteSwiftPackageReference "SwiftProcessing" */;
 			productName = SwiftProcessing;
 		};
 /* End XCSwiftPackageProductDependency section */

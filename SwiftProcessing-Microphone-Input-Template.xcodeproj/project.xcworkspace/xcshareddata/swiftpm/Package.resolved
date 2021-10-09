@@ -3,10 +3,10 @@
     "pins": [
       {
         "package": "SwiftProcessing",
-        "repositoryURL": "https://github.com/jjkaufman/SwiftProcessing.git",
+        "repositoryURL": "https://github.com/masoodkamandy/SwiftProcessing",
         "state": {
           "branch": "main",
-          "revision": "5775765c96a47a8b08ee92320fdd2ad11ca6524b",
+          "revision": "77772e3f04256f616b76a8b5a8cf28d648ad1f06",
           "version": null
         }
       }
